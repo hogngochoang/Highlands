@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực đơn | Highlands Coffee</title>
+    <link rel="icon"  href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header  -->
+    <div class="header-container">
+        <div class="logo-container">
+            <a href="./main.html">
+                <img src="./images/logo.png" style="width: 110px; height: 85px;">
+            </a>
+        </div>
+        <nav class="navbar-container">
+            <ul>
+                <li> <a href="./products.html"> Thực đơn </a></li>
+                <li> <a href=""> Tin tức </a></li>
+                <li><a href=""> Cộng đồng </a></li>
+                <li><a href=""> Về chúng tôi </a></li>               
+                <li><a href=""> Tuyển dụng </a></li>   
+            </ul>
+               
+        </nav>
+    </div>
+
+    <!-- Content -->
+    <div class="coffee">
+        <h1 class="heading"><span>CÀ PHÊ</span></h1>
+        <div class="size">
+            <h3>SIZE: </h3>
+            <button class="active" onclick="changePrice('S')">S</button>
+            <button onclick="changePrice('M')">M</button>
+            <button onclick="changePrice('L')">L</button>
+        </div>
+        <div class="coffee-wrapper">
+            <div class="card">
+                <img src="images/270_crop_HLC_New_logo_5.1_Products__PHINDI_CHOCO.jpg" alt="">
+                <div class="content">
+                    <h2>PHINDI CHOCO</h2>
+                    
+                    <div class="price">
+                        <h3>GIÁ: <span id="value1">45.000 VNĐ</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/270_crop_HLC_New_logo_5.1_Products__PHINDI_KEM_SUA.jpg" alt="">
+                <div class="content">
+                    <h2>PHINDI KEM SỮA</h2>
+                    
+                    <div class="price">
+                        <h3>GIÁ: <span id="value2">45.000 VNĐ</span></h3>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="images/270_crop_HLC_New_logo_5.1_Products__BAC_XIU.jpg" alt="">
+                <div class="content">
+                    <h2>BẠC XỈU ĐÁ</h2>
+                    <div class="price">
+                        <h3>GIÁ: <span id="value3">29.000 VNĐ</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/270_crop_HLC_New_logo_5.1_Products__CARAMEL_MACCHIATTO.jpg" alt="">
+                <div class="content">
+                    <h2>CARAMEL MACCHIATO</h2>
+                    <div class="price">
+                        <h3>GIÁ: <span id="value4">69.000 VNĐ</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>Truy cập nhanh</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Sản phẩm </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Tin tức </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Giới thiệu </a>
+            </div>
+    
+            <div class="box">
+                <h3> Highlands Coffee  </h3>
+                <p> </p>
+                <div class="share">
+                    <a href="https://www.facebook.com/highlandscoffeevietnam/" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/highlandscoffeevietnam/" class="fab fa-instagram"></a>
+                    <a href="https://www.youtube.com/channel/UCHEqa2uTf8uXrGWrnU3ThgA" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Phản hồi</h3>
+                <p>Hãy để lại email của bạn </p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="Gửi" class="btn">
+            </div>
+    
+        </div>
+    
+        <div class="credit">  <span> © 2023 Highlands Coffee.</span> All rights reserved</div>
+    
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./script.js" defer></script>
+    <script src="./float-panel.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlands Coffee</title>
+    <link rel="icon"  href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <script src="https://kit.fontawesome.com/cdf1deaf66.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Header  -->
+    <div class="header-container">
+        <div class="logo-container">
+            <a href="./main.html">
+                <img src="./images/logo.png" style="width: 110px; height: 85px;">
+            </a>
+        </div>
+
+        <nav class="navbar-container">
+            <ul>
+                <li> <a href="./products.html"> Thực đơn </a></li>
+                <li> <a href=""> Tin tức </a></li>
+                <li><a href=""> Cộng đồng </a></li>
+                <li><a href=""> Về chúng tôi </a></li>               
+                <li><a href=""> Tuyển dụng </a></li>   
+            </ul>
+               
+        </nav>
+            <button class="btn-nav">
+                <i class="fa-solid fa-bars" id="btn"></i>
+                <i class="fa-solid fa-xmark" id="close"></i>
+            </button>
+    </div>
+
+    <!-- Content -->
+
+    <div class="swiper banner-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="./images/HCO-7723-24TH-BIRTHDAY-DIGITAL-2000X878.jpg" alt="">
+            </div>
+            <div class="swiper-slide box">
+                <img src="./images/HCO_7719_CHERRY_BERRY_DIGITAL-Banner_820x3602x.png" alt="">
+            </div>
+            <div class="swiper-slide box">
+                <img src="./images/COVER_WEB_2000x878.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slider active" id="slider">
+        <div class="title">
+            MENU
+        </div>
+        <div class="images">
+            <div class="item" style="--i: 3; ">
+                <img src="images/PHIN_SUA_DA_5.1.png">
+                
+            </div>
+            <div class="item" style="--i: 2; ">
+                <img src="images/FREEZE-TRA-XANH-5.1.png">
+            </div>
+            <div class="item" style="--i: 1; ">
+                <img src="images/TRA-SEN-VANG-CN-5.1.png">
+            </div>
+        </div>
+        <div id="content">
+            <div class="item active">
+                <h1 class="active">CÀ PHÊ</h1>
+                <div class="des active">
+                    Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.                
+                </div>
+                <button class="active">See more</button>
+            </div>
+            <div class="item">
+                <h1>FREEZE</h1>
+                <div class="des">
+                    Sảng khoái với thức uống đá xay phong cách Việt. Freeze là thức uống đá xay mát lạnh được pha chế từ những nguyên liệu thuần túy của Việt Nam.
+                </div>
+                <button>See more</button>
+            </div>
+            <div class="item">
+                <h1>TRÀ</h1>
+                <div class="des">
+                    Hương vị tự nhiên, thơm ngon của Trà Việt với phong cách hiện đại tại Highlands Coffee sẽ giúp bạn gợi mở vị giác của bản thân và tận hưởng một cảm giác thật khoan khoái, tươi mới.                
+                </div>
+                <button>See more</button>
+            </div>
+        </div>
+        <div class="products">
+            <img src="images/PHIN_SUA_DA_5.1.png" class="test">
+            <img src="images/FREEZE-TRA-XANH-5.1.png" style="--i:1" class="test">
+            <img src="images/TRA-SEN-VANG-CN-5.1.png" style="--i:2" class="test">
+            <div  id="underline" class="active"></div>
+        </div>
+        <button id="prev"  class="active"> < </button>
+        <button id="next" class="active"> > </button>
+    </div>
+
+    <div class="news">
+        <h1 class="heading"><span>TIN MỚI NHẤT</span></h1>
+        <div class="news-wrapper">
+            <div class="card">
+                <img src="images/470_crop_HCO-7723-24TH-BIRTHDAY-DIGITAL-471X314.jpg" alt="">
+                <div class="content">
+                    <h2>24 NĂM CHÚNG MÌNH, HIGHLANDS CÓ PHIN SỮA ĐÁ 19K</h2>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 03/11/2023, 14:39 </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/470_crop_Vani-x-HLC_Blog-thumbnail.png" alt="">
+                <div class="content">
+                    <h2>CHƯƠNG TRÌNH THÀNH VIÊN HIGHLANDS COFFEE ĐÃ CHÍNH THỨC CÓ MẶT</h2>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 26/10/2023, 19:10 </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="images/470_crop_DIGITAL_Website_thumbnail_470x314_1.jpg" alt="">
+                <div class="content">
+                    <h2>HIGHLANDS COFFEE MIỄN PHÍ GIAO HÀNG | GỌI NGAY 1900 1755</h2>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 15/09/2023, 18:04 </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="heading" id="heading">
+            <h1><span> VỀ CHÚNG TÔI </span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button >TÌM HIỂU THÊM</button>
+        </div>
+        <div class="about-wrapper">
+            <div class="card card1">
+                <img src="./images/ABOUT-CAREER3.jpg" style="height: 31rem;width: 55.6rem; ">
+                <div class="content">
+                    <h2>LỊCH SỬ</h2>
+                    <p>Highlands Coffee® được thành lập vào năm 1999, bắt nguồn từ tình yêu dành cho đất Việt cùng với cà phê và cộng đồng nơi đây. Ngay từ những ngày đầu tiên, mục tiêu của chúng mình là có thể phục vụ và góp phần phát triển cộng đồng bằng cách siết chặt thêm sự kết nối và sự gắn bó giữa người với người.</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <img src="./images/Highlands_4577_R3_-_Copy.jpg" alt="">
+                <div class="content">
+                    <h2>DỊCH VỤ</h2>
+                    <p>Highlands Coffee® là không gian của chúng mình nên mọi thứ ở đây đều vì sự thoải mái của chúng mình. Đừng giữ trong lòng, hãy chia sẻ với chúng mình điều bạn mong muốn để cùng nhau giúp Highlands Coffee® trở nên tuyệt vời hơn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>Truy cập nhanh</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Sản phẩm </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Tin tức </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Giới thiệu </a>
+            </div>
+    
+            <div class="box">
+                <h3> Highlands Coffee  </h3>
+                <p> </p>
+                <div class="share">
+                    <a href="https://www.facebook.com/highlandscoffeevietnam/" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/highlandscoffeevietnam/" class="fab fa-instagram"></a>
+                    <a href="https://www.youtube.com/channel/UCHEqa2uTf8uXrGWrnU3ThgA" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Phản hồi</h3>
+                <p>Hãy để lại email của bạn </p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="Gửi" class="btn">
+            </div>
+    
+        </div>
+    
+        <div class="credit">  <span> © 2023 Highlands Coffee.</span> All rights reserved</div>
+    
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./script.js" defer></script>
+    <script src="./float-panel.js"></script>
+</body>
+</html>
